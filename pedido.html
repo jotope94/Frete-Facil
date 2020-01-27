@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css"">
+    <link rel="stylesheet" href="css/style.css"">
+    <title>Pedido</title>
+</head>
+<body>
+    <div class= "container-fluid text-center margin imagem">
+        <img src="css/imagem/fretefacil.jpg">
+    </divclass=>
+    
+    <div class= "container-fluid text-center margin caixa">
+      <form action="acoes.php?p=cadastrar_pedido" method="post">
+        <p>Cep destino</p>
+        <input type="text" name="cep_destino"/>
+        <p>Produto a ser comprado </p>
+        <input type="text" name="codigo_produto">
+        <br> 
+        <input class="btn btn-success botao" type="submit" value="Cadastrar pedido"/>
+      </form>
+    
+     <form action="index.html" method="post">
+        <input class="btn btn-danger voltar" type="submit" value="Voltar Inicio"/>
+     </form>
+
+     <form action="acoes.php?p=mostrar_produto" method="post">
+        <input class="btn btn-primary botao" type="submit" value="Mostrar Produtos"/>
+     </form>
+    </div>
+</body>
+</html>

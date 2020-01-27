@@ -1,0 +1,27 @@
+
+Comandos para Criar as tabelas no banco:
+
+create table produtos(
+codigo int(4) AUTO_INCREMENT,
+nome varchar(30) NOT NULL,
+altura float(50),
+largura float(50),
+comprimento float(50),
+peso float(50),
+PRIMARY KEY (codigo)
+);
+
+create table pedidos(
+codigo int(4) AUTO_INCREMENT,
+cep_destino int(50),
+cep_origem int(50),
+fk_produto int(50),
+PRIMARY KEY (codigo)
+);
+
+
+Senhas do banco:
+host=localhost
+usuario=root
+senha=
+nome=banco

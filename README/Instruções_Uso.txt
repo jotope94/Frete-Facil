@@ -1,0 +1,13 @@
+1-clique em criar produto
+ 1.1- Preencha os campos para cadastrar o produto
+ 1.2- Só tem validação das medidas
+ 1.3- Clique para cadastrar
+ 1.4- clique para voltar para o inicio
+
+2-clique em criar pedido
+ 2.1- Preencha os campos para cadastrar o pedido
+ 2.2- Só tem validação se o campo esta preenchido
+ 2.3- Clique para cadastrar
+ 2.4- clique para voltar para o inicio 
+
+3-clique no Frete fácil para aparecer as ofertas do Frete fácil

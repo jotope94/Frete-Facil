@@ -1,0 +1,17 @@
+.botao{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.imagem{
+    margin-bottom: 50px;
+}
+
+.voltar{
+    margin-bottom: 50px;
+}
+
+.caixa{
+    background-color:rgb(212, 212, 212);
+    border:2px solid rgb(167, 166, 166) ;
+}
